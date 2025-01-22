@@ -6,7 +6,7 @@ import pyrealsense2 as rs
 import numpy as np
 import cv2
 from langchain_core.messages import AIMessage, HumanMessage
-from graph import invoke_our_graph
+from graph_example import invoke_our_graph
 from st_callable_util import get_streamlit_cb
 import threading
 import base64
