@@ -53,7 +53,7 @@ with col2:
 
     # Initialize camera feed stream if not already present
     if 'camera_stream' not in st.session_state:
-        st.session_state.camera_stream = ColorRealSenseStream()
+        st.session_state.camera_stream = RealSenseStream()
 
     # Initialize last_frame in session_state
     if 'last_frame' not in st.session_state:
